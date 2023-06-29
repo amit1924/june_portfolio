@@ -1,0 +1,518 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add this CSS code to your existing CSS file */
+
+nav {
+  background: linear-gradient(135deg, #4f1f1f, #1a0000);
+}
+
+nav ul li a {
+  color: #ffffff;
+  
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+
+section {
+  padding: 40px;
+  background-color: #333;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+/* Dark color scheme */
+body {
+  background-color: #111;
+}
+
+section {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  background-color: #111;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+/* Animation and Color Transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #333;
+    color: #fff;
+  }
+  50% {
+    background-color: #222;
+    color: #fff;
+  }
+  100% {
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.color-transition {
+  animation: colorChange 5s infinite;
+}
+
+
+/* Add this CSS code to your existing CSS file */
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Add this CSS code to your existing CSS file */
+
+#experience {
+  padding: 40px;
+  background-color: #111;
+  color: #fff;
+}
+
+.experience-item {
+  margin-bottom: 40px;
+}
+
+.experience-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.experience-item h4 {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.experience-item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.experience-item ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+/* Add this CSS code to your existing CSS file */
+/* Add this CSS code to your existing CSS file */
+
+#about {
+  padding: 40px;
+  background: linear-gradient(to bottom, #13293D, #000A12);
+  color: #fff;
+}
+
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+
+
+/* Desktop styles */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-me .content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-me .image {
+  float: left;
+  margin-right: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .about-me {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .about-me .image {
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Add this CSS code to your existing CSS file */
+
+/* Add this CSS code to your existing CSS file */
+
+#projects {
+  padding: 40px;
+  background-color: #111;
+  color: #fff;
+}
+
+.project-item {
+  margin-bottom: 40px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.project-item a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+  background: linear-gradient(to right, #764ba2, #667eea);
+}
+
+
+/* Add this CSS code to your existing CSS file */
+
+/* Add this CSS code to your existing CSS file */
+
+#resume {
+ 
+  background: linear-gradient(to bottom, #111, #333);
+  color: #fff;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.resume-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Add this CSS code to your existing CSS file */
+
+.resume-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-content a:hover {
+  background: linear-gradient(to right, #764ba2, #667eea);
+}
+
+
+/* Animation */
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.resume-content {
+  animation: slideIn 1s forwards;
+}
+
+
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+    padding: 30px;
+  }
+}
+
+  @media (max-width: 500px) {
+    .resume {
+      flex-direction: column;
+      padding: 3rem;
+    }
+  }
+
+    @media (max-width: 500px) {
+      .resume {
+        flex-direction: column;
+        padding: 3rem;
+      }
+    }
+
+
+  .resume .content {
+    max-width: 100%;
+  }
+
+  .resume .download-button {
+    margin-top: 30px;
+    padding: 100px;
+  }
+
+
+.resume .skills {
+  text-align: left;
+}
+
+.resume .skills ul {
+  padding-left: 20px;
+}
+
+.resume .skills ul li {
+  margin-bottom: 10px;
+}
+
+
+
+/* Add this CSS code to your existing CSS file */
+
+#education {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #ffffff;
+  padding: 50px;
+}
+
+#education h2 {
+  margin-bottom: 30px;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item h3 {
+  color: #ffffff;
+}
+
+.education-item p {
+  margin: 5px 0;
+}
+
+
+
+/* Add this CSS code to your existing CSS file */
+
+/* Add this CSS code to your existing CSS file */
+
+#skills {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(52, 62, 144);
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-text {
+  flex: 1;
+  text-align: left;
+  animation: slide-in-left 1s ease-in-out;
+}
+
+.skills-text ul {
+  padding-left: 20px;
+}
+
+.skills-image {
+  flex: 1;
+  animation: zoom-in 1s ease-in-out;
+}
+
+.skills-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+
+
